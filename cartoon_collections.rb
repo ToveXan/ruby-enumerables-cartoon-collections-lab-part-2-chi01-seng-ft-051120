@@ -41,6 +41,7 @@ def find_valid_calls(planeteer_calls)
     valid_calls.find do |testing|
       if call == testing
         p call
+        p testing
       else
         return nil
       end
