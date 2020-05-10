@@ -38,7 +38,7 @@ def find_valid_calls(planeteer_calls)
   empty_array = []
   
   planeteer_calls.find do |call|
-    
+    (1..10).include? 5 
     end
   end
 end
