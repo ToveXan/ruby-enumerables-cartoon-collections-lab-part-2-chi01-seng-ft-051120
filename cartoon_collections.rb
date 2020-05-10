@@ -44,7 +44,7 @@ def find_valid_calls(planeteer_calls)
       else
         return nil
       end
-      empty_array
+      p empty_array
     end
   end
 end
