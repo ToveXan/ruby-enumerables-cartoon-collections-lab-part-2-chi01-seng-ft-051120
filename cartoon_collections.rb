@@ -50,6 +50,4 @@ def find_valid_calls(planeteer_calls)
   end
 end
 
-
-mixed_calls = ["Wood!", "Wind!", "Brass!", "Enamel!", "Heart!"]
-find_valid_calls(mixed_calls)
+#find_valid_calls(mixed_calls)
