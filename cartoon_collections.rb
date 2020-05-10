@@ -40,7 +40,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |call|
     valid_calls.find do |testing|
       if call == testing
-        empty_array >> call
+        p call
       else
         return nil
       end
