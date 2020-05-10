@@ -38,10 +38,12 @@ def find_valid_calls(planeteer_calls)
   empty_array = []
   
   planeteer_calls.find do |call|
-    if call == valid_calls
-      empty_array >> call
-    else
-      return nil
+    valid_calls.find do |test|
+      if call == valid_calls
+        empty_array >> call
+      else
+        return nil
+      end
     end
     empty_array
   end
