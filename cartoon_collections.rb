@@ -38,7 +38,7 @@ def find_valid_calls(planeteer_calls)
   empty_array = []
   
   planeteer_calls.find do |call|
-    valid_calls.find do |testing|
+    call.find do |testing|
       if call == testing
         p call
         p testing
